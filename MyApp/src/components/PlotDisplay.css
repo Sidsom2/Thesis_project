@@ -1,0 +1,11 @@
+.plot-container {
+    margin: 16px 0;
+  }
+  
+  .plot-image {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    max-width: 100%;
+    height: auto;
+  }
+  

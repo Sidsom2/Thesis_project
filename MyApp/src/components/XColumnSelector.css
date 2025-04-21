@@ -1,0 +1,19 @@
+.x-column-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .x-column-label {
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .x-column-select {
+    background-color: #1e40af;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+    width: 208px; /* 52 * 4px */
+    border: none;
+  }
+  

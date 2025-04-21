@@ -1,0 +1,17 @@
+.file-upload-container {
+    margin-bottom: 8px;
+  }
+  
+  .file-upload-label {
+    background-color: #1e40af;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .file-input-hidden {
+    display: none;
+  }
+  

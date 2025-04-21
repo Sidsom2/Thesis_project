@@ -1,0 +1,19 @@
+.graph-selector-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .graph-selector-label {
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .graph-selector-select {
+    background-color: #1e40af;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+    width: 208px; /* Equivalent to w-52 in Tailwind */
+    border: none;
+  }
+  

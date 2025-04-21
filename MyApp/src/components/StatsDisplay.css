@@ -1,0 +1,24 @@
+.stats-container {
+    margin: 16px 0;
+  }
+  
+  .stats-heading {
+    font-weight: bold;
+    font-size: 1.125rem;
+    margin-bottom: 12px;
+  }
+  
+  .stats-section {
+    margin-bottom: 12px;
+  }
+  
+  .stats-column-title {
+    font-weight: 600;
+    color: #2563eb; /* Tailwind's blue-600 */
+  }
+  
+  .stats-list {
+    list-style-type: disc;
+    margin-left: 24px;
+  }
+  

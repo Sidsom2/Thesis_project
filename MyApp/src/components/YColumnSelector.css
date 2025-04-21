@@ -1,0 +1,20 @@
+.y-column-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .y-column-label {
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .y-column-select {
+    background-color: #1e40af;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+    width: 208px; /* 52 * 4px (Tailwind equivalent) */
+    height: 160px; /* 40 * 4px */
+    border: none;
+  }
+  
