@@ -1,0 +1,65 @@
+#app-container {
+  padding: 24px;
+  font-family: sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+#app-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#selectors-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.selector-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#plot-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#analyze-button,
+#download-button {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#analyze-button {
+  background-color: #1e40af;
+  margin-bottom: 24px;
+}
+
+#analyze-button:hover {
+  background-color: #1e3a8a;
+}
+
+#download-button {
+  background-color: #16a34a;
+  margin-top: 16px;
+}
+
+#download-button:hover {
+  background-color: #15803d;
+}
